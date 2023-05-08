@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Aurora</title>
     <!-- Import main CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -15,13 +21,18 @@
     <nav class="navbar-container">
         <!-- Brand Logo -->
         <img class="nav-logo" src="assets/images/nav-logo.png" alt="Aurora Company Logo">
-        <!-- Main Nav Link -->
-        <ul class="nav-main">
-            <li>HOME</li>
-            <li>ABOUT US</li>
-            <li>SERVICES</li>
-            <li>TESTIMONIALS</li>
-            <li>CONTACT</li>
+        <!-- Collapse for mobile -->
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <!-- Main Nav Links -->
+        <ul class="menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">TESTIMONIALS</a></li>
+            <li><a href="#">CONTACT US</a></li>
         </ul>
         <!-- Contact Button leads to contact form later in site -->
         <a class="nav-btn" href="#">Talk To Us</a>
