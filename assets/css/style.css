@@ -10,6 +10,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Navbar CSS elements */
 .navbar-container {
     display: flex;
@@ -103,8 +107,74 @@ body {
     color: #fafafa;
 }
 
+.nav-btn:hover {
+    background-color: #fafafa;
+    color: #BF6F4D;
+    /* Decreased padding size by 1px here to stop the button pushing the next section down when hovered */
+    padding: 11px 17px;
+    border: 1px solid #BF6F4D;
+}
+
+/* Header Section CSS */
+.header-container {
+    background-color: #fafafa;
+    display: flex;
+    padding: 4% 7% 0% 16%;
+}
+
+.header-text {
+    width: 58vw;
+    padding-top: 10%;
+    color: #BF6F4D;
+}
+
+.header-lg-text {
+    font-size: 3vw;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.header-sm-text {
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin: 2% 0%;
+}
+
+.header-image {
+    width: 42vw;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+
+.header-image-image {
+    top: 4%;
+    max-width: 35vw;
+    height: 80%;
+    object-fit: scale-down;
+}
+
+.header-btn {
+    display: block;
+    width: 8vw;
+    background-color: transparent;
+    font-size: 1vw;
+    border: 1px solid #BF6F4D;
+    border-radius: 5px;
+    color: #BF6F4D;
+    margin-top: 4%;
+    padding: 1% 0% 1% 4%;
+}
+
+.header-btn:hover {
+    background-color: #BF6F4D;
+    color: white;
+}
+
 /* Media queries */
+/* Tablet and below */
 @media (max-width: 800px) {
+
+    /* Navbar */
     .menu-button-container {
         display: flex;
     }
