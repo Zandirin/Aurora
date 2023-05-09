@@ -186,7 +186,37 @@
                 <h3 class="testiHeader">Mary</h3>
             </div>
         </div>
-    
+    </section>
+
+    <!-- Contact Form that all the buttons lead to! On submit, opens a new window
+    where you can email to "the company" used a personal/business email for the example
+    as the company doesn't actually exist -->
+    <section id="contact">
+        <div class="contact-section-container">
+            <div class="contact-image">
+                <img class="contact-image-image" src="assets/images/image.png" alt="Image of company building">
+            </div>
+            <div class="contact-form">
+                <form class="form" action="mailto:allowudesign@gmail.com" method="post" enctype="text/plain" name="EmailForm"
+                    autocomplete="false">
+                    <div class="contact-form-top">
+                        <p>If you have any questions, you can also contact us using the form below and we will be happy
+                            to answer</p>
+                    </div>
+                    <p class="contact-input" type="Name:"><input name="Name" placeholder="Write your name here.." required></input></p>
+                    <p class="contact-input" type="Email:"><input name="Email" placeholder="Let us know how to contact you back.."
+                            required></input></p>
+                    <p class="contact-input" type="Message:"><input name="Message" placeholder="What would you like to tell us.."
+                            required></input></p>
+                    <div class="contact-button">
+                        <button type="submit" value="Send" class="btn btn-sm btn-contact">Contact Us</button>
+                    </div>
+                </form>
+                <div class="contact-bottom-text">
+                    <p>The Colmore Building, 20 Colmore Circus Queensway<br>Birmingham B4 6AT, Reino Unido</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Import Flickity JS for carousel functions -->
