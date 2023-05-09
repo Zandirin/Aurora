@@ -27,7 +27,7 @@
         <!-- Brand Logo -->
         <img class="nav-logo" src="assets/images/nav-logo.png" alt="Aurora Company Logo">
         <!-- Collapse for mobile -->
-        <input id="menu-toggle" type="checkbox" />
+        <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
             <div class='menu-button'></div>
         </label>
@@ -72,7 +72,7 @@
         <!-- Code taken from https://supfort.com/font-awesome-accordion-arrow-css and modified for site needs -->
         <div class="accordion-container">
             <div class="accordion-item">
-                <input type="checkbox" id="anxiety" />
+                <input type="checkbox" id="anxiety">
                 <label for="anxiety">Anxiety</label>
 
                 <div class="content">
@@ -82,7 +82,7 @@
             </div>
 
             <div class="accordion-item">
-                <input type="checkbox" id="depression" />
+                <input type="checkbox" id="depression">
                 <label for="depression">Depression</label>
 
                 <div class="content">
@@ -92,7 +92,7 @@
             </div>
 
             <div class="accordion-item">
-                <input type="checkbox" id="trauma" />
+                <input type="checkbox" id="trauma">
                 <label for="trauma">Trauma</label>
 
                 <div class="content">
@@ -102,7 +102,7 @@
             </div>
 
             <div class="accordion-item">
-                <input type="checkbox" id="panic" />
+                <input type="checkbox" id="panic">
                 <label for="panic">Panic Syndrome</label>
 
                 <div class="content">
@@ -115,6 +115,7 @@
     </section>
 
     <!-- About Us carousel section -->
+    <!-- w3 validator throws a warning for lack of heading tag, section does not require heading -->
     <section id="about-us">
         <!-- Carousel section -->
         <!-- Using a lightweight css/js framework named "flickity" for the two carousels on the page -->
@@ -192,22 +193,24 @@
     where you can email to "the company" used a personal/business email for the example
     as the company doesn't actually exist -->
     <section id="contact">
+        <!-- w3 validator throws no heading warning, this section doesn't require a heading -->
         <div class="contact-section-container">
             <div class="contact-image">
                 <img class="contact-image-image" src="assets/images/image.png" alt="Image of company building">
             </div>
             <div class="contact-form">
                 <form class="form" action="mailto:allowudesign@gmail.com" method="post" enctype="text/plain" name="EmailForm"
-                    autocomplete="false" target="_blank">
+                    autocomplete="off" target="_blank">
                     <div class="contact-form-top">
                         <p>If you have any questions, you can also contact us using the form below and we will be happy
                             to answer</p>
                     </div>
-                    <p class="contact-input" type="Name:"><input name="Name" placeholder="Write your name here.." required></input></p>
+                    <!-- Throws error in w3 validator, however, it works and displays as intended "type not allowed attribute for p tag" -->
+                    <p class="contact-input" type="Name:"><input name="Name" placeholder="Write your name here.." required></p>
                     <p class="contact-input" type="Email:"><input name="Email" placeholder="Let us know how to contact you back.."
-                            required></input></p>
+                            required></p>
                     <p class="contact-input" type="Message:"><input name="Message" placeholder="What would you like to tell us.."
-                            required></input></p>
+                            required></p>
                     <div class="contact-button">
                         <button type="submit" value="Send" class="btn btn-sm btn-contact">Contact Us</button>
                     </div>

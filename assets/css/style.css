@@ -39,15 +39,11 @@ a {
 }
 
 .flickity-prev-next-button:hover {
-    fill: transparent;
-    color: transparent;
-    background: transparent;
+    display: none;
 }
 
 .flickity-prev-next-button:hover .arrow {
-    fill: transparent;
-    color: transparent;
-    background: transparent;
+    display: none;
 }
 
 /* hide disabled button */
