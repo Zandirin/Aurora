@@ -14,6 +14,8 @@
     <!-- Import Font Awesome for using icons throughout the document -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- Import Flickity CSS for carousel styling -->
+    <link rel="stylesheet" href="assets/css/flickity.css" media="screen">
     <title>Aurora</title>
     <!-- Import main CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -111,6 +113,68 @@
         <!-- Add Another CTA button leading to contact form -->
         <a href="#" class="how-btn">Book your appointment</a>
     </section>
+
+    <!-- About Us carousel section -->
+    <section id="about-us">
+        <!-- Carousel section -->
+        <!-- Using a lightweight css/js framework named "flickity" for the two carousels on the page -->
+        <!-- Took a lazier approach by converting my design segments to images for this carousel, however,
+        I think it gives a more appealing look -->
+        <div class="about-us-gallery js-flickity">
+            <div class="about-gallery-cell">
+                <img class="about-img" src="assets/images/luiza.png" alt="Luíza">
+            </div>
+            <div class="about-gallery-cell">
+                <img class="about-img" src="assets/images/theresa.png" alt="Theresa">
+            </div>
+            <div class="about-gallery-cell">
+                <img class="about-img" src="assets/images/brenda.png" alt="Brenda">
+            </div>
+        </div>
+    </section>
+
+    <!-- About us text section -->
+    <section id="about-us-part-two">
+
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="testimonial-gallery js-flickity">
+            <div class="gallery-cell">
+                <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png" alt="Quotation"></p>
+                <br>
+                <p>Luíza helped me overcome many fears and setbacks with simple techniques to control
+                    anxiety
+                    and better understand my reactions. Thanks to therapy with her, I was able to better
+                    control
+                    my anxiety attacks.</p>
+                <h3 class="testiHeader">Jessica</h3>
+            </div>
+            <div class="gallery-cell">
+                <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png" alt="Quotation"></p>
+                <br>
+                <p>Aurora is amazing! They approach therapy in a way that really takes into account our
+                    individual needs. It helped me in one of my most difficult times and I will definitely
+                    use
+                    their advice for the rest of my life.</p>
+                <h3 class="testiHeader">April</h3>
+            </div>
+            <div class="gallery-cell">
+                <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png" alt="Quotation"></p>
+                <br>
+                <p>Aurora is great! They helped me to overcome so many issues that were effecting me mentally.
+                    I now feel better equipped to deal with the physical aspects of my life with a healthier
+                    mental state.
+                </p>
+                <h3 class="testiHeader">Mary</h3>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Import Flickity JS for carousel functions -->
+    <script src="assets/js/flickity-docs.min.js"></script>
 </body>
 
 </html>

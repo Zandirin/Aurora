@@ -14,6 +14,67 @@ a {
     text-decoration: none;
 }
 
+/* General carousel edits */
+.gallery-cell {
+    width: 100%;
+    height: auto;
+    padding: 3% 25% 5%;
+    margin-right: 10vw;
+}
+
+/* big buttons, no circle */
+.flickity-prev-next-button {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+
+/* arrow color */
+.flickity-prev-next-button .arrow {
+    fill: transparent;
+}
+
+.flickity-prev-next-button.no-svg {
+    color: transparent;
+}
+
+.flickity-prev-next-button:hover {
+    fill: transparent;
+    color: transparent;
+    background: transparent;
+}
+
+.flickity-prev-next-button:hover .arrow {
+    fill: transparent;
+    color: transparent;
+    background: transparent;
+}
+
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+    display: none;
+}
+
+/* position dots in gallery */
+.flickity-page-dots {
+    bottom: 5vh;
+}
+
+
+/* white circles */
+.flickity-page-dots .dot {
+    width: 1vw;
+    height: 1vw;
+    opacity: 1;
+    background: transparent;
+    border: 0.1rem solid #839383;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+    background: #839383;
+}
+
 /* Navbar CSS elements */
 .navbar-container {
     display: flex;
@@ -273,6 +334,69 @@ input:checked+label+.content {
     border: 1px solid #BF6F4D;
 }
 
+/* About Us section CSS */
+/* General Settings */
+#about-us {
+    height: auto;
+    background-color: #f4f4f4;
+}
+
+/* Force the image to fit the entire screen */
+.about-img {
+    width: 100vw;
+}
+
+/* Carousel code */
+/* Change the dots for this specific carousel so they're a bit higher than the standard */
+#aboutUs .flickity-page-dots {
+    bottom: 10%;
+}
+
+/* Realigning to fix a bug where the ladies disappeared behind the next section */
+.about-us-gallery {
+    position: relative;
+    align-items: center;
+    vertical-align: bottom;
+    bottom: 0;
+    height: 100%;
+}
+
+/* Testimonials Section CSS */
+/* General settings */
+#testimonials {
+    color: #637763;
+    font-size: 1.3vw;
+    background-image: url("../images/RectangleMarble.png");
+    height: auto;
+    background-repeat: repeat;
+    background-size: 100% auto;
+}
+
+/* Text settings */
+/* Big font used for name */
+.testiHeader {
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+/* Smaller font */
+.image-paragraph {
+    text-align: center;
+}
+
+/* "Image" is the quotation mark */
+.testimonial-image {
+    width: 3vw;
+}
+
+/* Carousel code */
+.testimonial-gallery {
+    align-items: center;
+    vertical-align: center;
+    height: auto;
+    padding-bottom: 3%;
+}
+
 /* Media queries */
 /* Tablet and below */
 @media (max-width: 800px) {
@@ -324,5 +448,9 @@ input:checked+label+.content {
 
     .nav-btn {
         display: none;
+    }
+    
+    .flickity-page-dots {
+        bottom: 1.5vh;
     }
 }
