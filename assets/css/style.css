@@ -360,6 +360,63 @@ input:checked+label+.content {
     bottom: 0;
     height: 100%;
 }
+/* Part Two of About me Section with text and image content */
+/* General Settings */
+#about-us-part-two {
+    background-color: #839383;
+    font-size: 1.5vw;
+    color: #fafafa;
+    padding: 3% 4% 3% 0%;
+    text-align: center;
+}
+/* Text Settings */
+#about-us-part-two p {
+    margin-top: 4%;
+}
+
+#about-us-part-two h3 {
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 3% 0% 7%;
+}
+
+.about-container {
+    display: flex;
+    padding-left: 4%;
+}
+
+.about-text {
+    text-align: left;
+    width: 58vw;
+}
+
+.about-btn {
+    display: block;
+    /* margin-left: 4%; */
+    margin-top: 6%;
+    background-color: transparent;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+    padding: 1% 4%;
+    font-size: 1.2vw;
+    width: 13vw;
+    color: #fafafa;
+}
+
+.about-btn:hover {
+    background-color: #fff;
+    color: #839383;
+}
+
+.about-image {
+    width: 42vw;
+}
+
+.about-image-image {
+    max-width: 100%;
+    max-height: 90%;
+    object-fit: scale-down;
+}
 
 /* Testimonials Section CSS */
 /* General settings */
