@@ -136,6 +136,7 @@
 
     <!-- About us text section -->
     <section id="about-us-part-two">
+        <!-- Description text explaining company goal -->
         <h3 class="about-heading">Psychological assistance<br>wherever you are!</h3>
         <div class="about-container">
             <div class="about-text">
@@ -149,6 +150,7 @@
                 developing a therapeutic plan so that you can continue to stay on track towards your goals.</p>
                 <a href="#contact" class="about-btn">Contact Us</a>
             </div>
+            <!-- Deciding whether or not to hide this on smaller screen devices due to space constraints -->
             <div class="about-image">
                 <img class="about-image-image" src="assets/images/lady.png" alt="Picture of lady working">
             </div>
@@ -157,6 +159,8 @@
 
     <!-- Testimonials -->
     <section id="testimonials">
+        <!-- Second carousel for the page. This one uses a combination of text and images. All carousels
+        are made using the flickity framework on this site. -->
         <div class="testimonial-gallery js-flickity">
             <div class="gallery-cell">
                 <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png" alt="Quotation"></p>
@@ -199,6 +203,8 @@
                 <img class="contact-image-image" src="assets/images/image.png" alt="Image of company building">
             </div>
             <div class="contact-form">
+                <!-- Currently just opens a new tab which autocompletes an email and fills in the recipient as "allowudesign@gmail.com"
+                perhaps later, implement w3 forms API to make it just send the email directly to the address -->
                 <form class="form" action="mailto:allowudesign@gmail.com" method="post" enctype="text/plain" name="EmailForm"
                     autocomplete="off" target="_blank">
                     <div class="contact-form-top">
@@ -206,7 +212,8 @@
                             to answer</p>
                     </div>
                     <!-- Throws error in w3 validator, however, it works and displays as intended "type not allowed attribute for p tag" -->
-                    <p class="contact-input" type="Name:"><input name="Name" placeholder="Write your name here.." required></p>
+                    <!-- Label in this case left too much spacing and overall just looked worse in my opinion -->
+                    <p class="contact-input" type="Name:"><input id="name" name="Name" placeholder="Write your name here.." required></p>
                     <p class="contact-input" type="Email:"><input name="Email" placeholder="Let us know how to contact you back.."
                             required></p>
                     <p class="contact-input" type="Message:"><input name="Message" placeholder="What would you like to tell us.."
@@ -224,6 +231,7 @@
 
     <!-- Footer section -->
     <footer>
+        <!-- Navigation links to easily move around the page from the bottom -->
         <div class="links-container">
             <div class="footer-link"><a href="#header">Home</a></div>
             <div class="footer-link"><a href="#how-can-we-help">Services</a></div>
@@ -231,11 +239,13 @@
             <div class="footer-link"><a href="#testimonials">Testimonials</a></div>
             <div class="footer-link"><a href="#contact">Contact</a></div>
         </div>
+        <!-- Social links, currently using own business links and a random twitter link to show they work0 -->
         <div class="socials-container">
             <div class="footer-social"><a href="https://www.facebook.com/profile.php?id=100092191795588" target="_blank"><img src="assets/images/fb.png" alt="facebook logo"></a></div>
             <div class="footer-social"><a href="https://www.instagram.com/allowudesign/" target="_blank"><img src="assets/images/insta.png" alt="instagram logo"></a></div>
             <div class="footer-social"><a href="https://twitter.com/loremipsumt" target="_blank"><img src="assets/images/twt.png" alt="twitter logo"></a></div>
         </div>
+        <!-- Simple text with a link to creator's work -->
         <div class="signature-container">   
             <p>Designed and Developed by <a href="https://github.com/Zandirin">Richard Kraft</a></p>
         </div>
