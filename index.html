@@ -11,6 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <!-- Import Font Awesome for using icons throughout the document -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <title>Aurora</title>
     <!-- Import main CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -56,6 +59,58 @@
             </div>
         </div>
     </header>
+
+    <!-- How we can help section -->
+    <section id="how-can-we-help">
+        <!-- Heading -->
+        <h3 class="how-heading">How we can help you</h3>
+        <!-- Sub Heading -->
+        <p class="how-paragraph">We are here for you to conquer your emotional<br>autonomy and well-being</p>
+        <!-- Fun with CSS, made an "accordion" to show/hide some information here -->
+        <!-- Code taken from https://supfort.com/font-awesome-accordion-arrow-css and modified for site needs -->
+        <div class="accordion-container">
+            <div class="accordion-item">
+                <input type="checkbox" id="anxiety" />
+                <label for="anxiety">Anxiety</label>
+
+                <div class="content">
+                    <p>Anxiety is a natural human response when we feel that we are under threat. It can be experienced
+                        through our thoughts, feelings and physical sensations.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <input type="checkbox" id="depression" />
+                <label for="depression">Depression</label>
+
+                <div class="content">
+                    <p>Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <input type="checkbox" id="trauma" />
+                <label for="trauma">Trauma</label>
+
+                <div class="content">
+                    <p>Trauma is an emotional response to a terrible event like an accident, assault or natural disasters.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <input type="checkbox" id="panic" />
+                <label for="panic">Panic Syndrome</label>
+
+                <div class="content">
+                    <p>Panic disorder is an anxiety disorder where you regularly have sudden attacks of panic or fear.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add Another CTA button leading to contact form -->
+        <a href="#" class="how-btn">Book your appointment</a>
+    </section>
 </body>
 
 </html>

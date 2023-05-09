@@ -120,6 +120,8 @@ a {
     background-color: #fafafa;
     display: flex;
     padding: 4% 7% 0% 16%;
+    height: 20%;
+    max-height: 20%;
 }
 
 .header-text {
@@ -168,6 +170,107 @@ a {
 .header-btn:hover {
     background-color: #BF6F4D;
     color: white;
+}
+
+/* How we can help section CSS */
+#how-can-we-help {
+    text-align: center;
+    padding: 4% 0% 2%;
+    height: auto;
+    background-color: #f4f4f4;
+}
+
+/* text code */
+.how-heading {
+    color: #BF6F4D;
+    font-weight: 700;
+    margin-bottom: 2vh;
+    font-size: 2vw;
+}
+
+.how-paragraph {
+    color: #8A9A8A;
+    font-size: 1.5vw;
+    margin-bottom: 8%;
+}
+
+/* Accordion code */
+/* Code taken from https://supfort.com/font-awesome-accordion-arrow-css and modified to fit website aesthetic */
+.accordion-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    padding-bottom: 3%;
+}
+
+.accordion-container input {
+    display: none;
+}
+
+.accordion-container label {
+    display: block;
+    padding: 8px 22px;
+    margin: 0 0 1px 0;
+    font-size: 1.3vw;
+    width: 20vw;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #BF6F4D;
+    transition: ease .5s;
+    position: relative;
+}
+
+.accordion-container label::after {
+    font-family: "Font Awesome 5 Free";
+    content: '\f078';
+    font-weight: bold;
+    font-size: 1.3vw;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.accordion-container input:checked+label::after {
+    content: '\f077';
+}
+
+.content {
+    background: transparent;
+    padding: 10px 25px;
+    max-width: 20vw;
+    margin: 0 0 1px 0;
+    border-radius: 3px;
+    font-size: 1.2vw;
+    text-align: left;
+}
+
+input+label+.content {
+    display: none;
+}
+
+input:checked+label+.content {
+    display: block;
+}
+
+.how-btn {
+    display: block;
+    margin-top: 10%;
+    margin-left: 35vw;
+    margin: 10% 35vw 4% auto;
+    width: 30vw;
+    font-size: 1.6vw;
+    background-color: #BF6F4D;
+    padding: 1% 4%;
+    border-radius: 5px;
+    color: #fafafa;
+}
+
+.how-btn:hover {
+    color: #BF6F4D;
+    background-color: #fafafa;
+    border: 1px solid #BF6F4D;
 }
 
 /* Media queries */
