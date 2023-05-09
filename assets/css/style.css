@@ -77,12 +77,16 @@ a {
 
 /* Navbar CSS elements */
 .navbar-container {
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #fafafa;
-    padding: 1em;
+    padding: 1em 4% 1em 1em;
 }
 
 .nav-logo {
@@ -597,6 +601,10 @@ footer a {
 @media (max-width: 800px) {
 
     /* Navbar */
+    .navbar-container {
+        position: relative;
+    }
+
     .menu-button-container {
         display: flex;
     }
