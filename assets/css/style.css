@@ -555,6 +555,43 @@ input:checked+label+.content {
     color: #dcdcdc;
 }
 
+/* Footer Section CSS */
+/* General Settings */
+footer {
+    background-color: #e9e5dc;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding: 6% 20% 2%;
+    text-align: center;
+}
+footer a {
+    color: #5a5a5a;
+}
+/* Navigation links */
+.links-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 40%;
+}
+
+.footer-social {
+    object-position: center;
+}
+
+.footer-social img {
+    height: 1.2vw;
+}
+
+.signature-container {
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+
 /* Media queries */
 /* Tablet and below */
 @media (max-width: 800px) {
