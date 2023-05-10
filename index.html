@@ -52,7 +52,7 @@
                 <!-- Main Heading -->
                 <h1 class="header-lg-text">Conquer Your Emotional<br>Autonomy And Well-Being</h1>
                 <!-- Sub Heading -->
-                <h4 class="header-sm-text">Out Of Your Vulnerability Will Come Your<br>Strength</h4>
+                <h2 class="header-sm-text">Out Of Your Vulnerability Will Come Your<br>Strength</h2>
                 <!-- Another CTA button directing user to contact form -->
                 <a href="#contact" class="header-btn">Talk to Us</a>
             </div>
@@ -61,171 +61,181 @@
             </div>
         </div>
     </header>
+    <main>
+        <!-- How we can help section -->
+        <section id="how-can-we-help">
+            <!-- Heading -->
+            <h3 class="how-heading">How we can help you</h3>
+            <!-- Sub Heading -->
+            <p class="how-paragraph">We are here for you to conquer your emotional<br>autonomy and well-being</p>
+            <!-- Fun with CSS, made an "accordion" to show/hide some information here -->
+            <!-- Code taken from https://supfort.com/font-awesome-accordion-arrow-css and modified for site needs -->
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <input type="checkbox" id="anxiety">
+                    <label for="anxiety">Anxiety</label>
 
-    <!-- How we can help section -->
-    <section id="how-can-we-help">
-        <!-- Heading -->
-        <h3 class="how-heading">How we can help you</h3>
-        <!-- Sub Heading -->
-        <p class="how-paragraph">We are here for you to conquer your emotional<br>autonomy and well-being</p>
-        <!-- Fun with CSS, made an "accordion" to show/hide some information here -->
-        <!-- Code taken from https://supfort.com/font-awesome-accordion-arrow-css and modified for site needs -->
-        <div class="accordion-container">
-            <div class="accordion-item">
-                <input type="checkbox" id="anxiety">
-                <label for="anxiety">Anxiety</label>
+                    <div class="content">
+                        <p>Anxiety is a natural human response when we feel that we are under threat. It can be
+                            experienced
+                            through our thoughts, feelings and physical sensations.</p>
+                    </div>
+                </div>
 
-                <div class="content">
-                    <p>Anxiety is a natural human response when we feel that we are under threat. It can be experienced
-                        through our thoughts, feelings and physical sensations.</p>
+                <div class="accordion-item">
+                    <input type="checkbox" id="depression">
+                    <label for="depression">Depression</label>
+
+                    <div class="content">
+                        <p>Depression causes feelings of sadness and/or a loss of interest in activities you once
+                            enjoyed.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="trauma">
+                    <label for="trauma">Trauma</label>
+
+                    <div class="content">
+                        <p>Trauma is an emotional response to a terrible event like an accident, assault or natural
+                            disasters.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="panic">
+                    <label for="panic">Panic Syndrome</label>
+
+                    <div class="content">
+                        <p>Panic disorder is an anxiety disorder where you regularly have sudden attacks of panic or
+                            fear.</p>
+                    </div>
                 </div>
             </div>
+            <!-- Add Another CTA button leading to contact form -->
+            <a href="#contact" class="how-btn">Book your appointment</a>
+        </section>
 
-            <div class="accordion-item">
-                <input type="checkbox" id="depression">
-                <label for="depression">Depression</label>
-
-                <div class="content">
-                    <p>Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed.
-                    </p>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <input type="checkbox" id="trauma">
-                <label for="trauma">Trauma</label>
-
-                <div class="content">
-                    <p>Trauma is an emotional response to a terrible event like an accident, assault or natural disasters.
-                    </p>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <input type="checkbox" id="panic">
-                <label for="panic">Panic Syndrome</label>
-
-                <div class="content">
-                    <p>Panic disorder is an anxiety disorder where you regularly have sudden attacks of panic or fear.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Add Another CTA button leading to contact form -->
-        <a href="#contact" class="how-btn">Book your appointment</a>
-    </section>
-
-    <!-- About Us carousel section -->
-    <!-- w3 validator throws a warning for lack of heading tag, section does not require heading -->
-    <section id="about-us">
-        <!-- Carousel section -->
-        <!-- Using a lightweight css/js framework named "flickity" for the two carousels on the page -->
-        <!-- Took a lazier approach by converting my design segments to images for this carousel, however,
+        <!-- About Us carousel section -->
+        <!-- w3 validator throws a warning for lack of heading tag, section does not require heading -->
+        <section id="about-us">
+            <!-- Carousel section -->
+            <!-- Using a lightweight css/js framework named "flickity" for the two carousels on the page -->
+            <!-- Took a lazier approach by converting my design segments to images for this carousel, however,
         I think it gives a more appealing look -->
-        <div class="about-us-gallery js-flickity">
-            <div class="about-gallery-cell">
-                <img class="about-img" src="assets/images/luiza.png" alt="Luíza">
+            <div class="about-us-gallery js-flickity">
+                <div class="about-gallery-cell">
+                    <img class="about-img" src="assets/images/luiza.png" alt="Luíza">
+                </div>
+                <div class="about-gallery-cell">
+                    <img class="about-img" src="assets/images/theresa.png" alt="Theresa">
+                </div>
+                <div class="about-gallery-cell">
+                    <img class="about-img" src="assets/images/brenda.png" alt="Brenda">
+                </div>
             </div>
-            <div class="about-gallery-cell">
-                <img class="about-img" src="assets/images/theresa.png" alt="Theresa">
-            </div>
-            <div class="about-gallery-cell">
-                <img class="about-img" src="assets/images/brenda.png" alt="Brenda">
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About us text section -->
-    <section id="about-us-part-two">
-        <!-- Description text explaining company goal -->
-        <h3 class="about-heading">Psychological assistance<br>wherever you are!</h3>
-        <div class="about-container">
-            <div class="about-text">
-                <p>Our goal is to help you deal with issues that are causing you discomfort, disturbing your
-                well-being, your activities or relationships.</p>
-                <p>In the first part of the service, we will listen to you, learn about your complaints and what
-                motivated you to contact us.</p>
-                <p><strong>It's your time to vent and tell us what you've been doing so far to
-                deal with the challenges.</strong></p>
-                <p>Once that is done, we will explain to you how cognitive behavioral therapy works for you,
-                developing a therapeutic plan so that you can continue to stay on track towards your goals.</p>
-                <a href="#contact" class="about-btn">Contact Us</a>
+        <!-- About us text section -->
+        <section id="about-us-part-two">
+            <!-- Description text explaining company goal -->
+            <h3 class="about-heading">Psychological assistance<br>wherever you are!</h3>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>Our goal is to help you deal with issues that are causing you discomfort, disturbing your
+                        well-being, your activities or relationships.</p>
+                    <p>In the first part of the service, we will listen to you, learn about your complaints and what
+                        motivated you to contact us.</p>
+                    <p><strong>It's your time to vent and tell us what you've been doing so far to
+                            deal with the challenges.</strong></p>
+                    <p>Once that is done, we will explain to you how cognitive behavioral therapy works for you,
+                        developing a therapeutic plan so that you can continue to stay on track towards your goals.</p>
+                    <a href="#contact" class="about-btn">Contact Us</a>
+                </div>
+                <!-- Deciding whether or not to hide this on smaller screen devices due to space constraints -->
+                <div class="about-image">
+                    <img class="about-image-image" src="assets/images/lady.png" alt="Picture of lady working">
+                </div>
             </div>
-            <!-- Deciding whether or not to hide this on smaller screen devices due to space constraints -->
-            <div class="about-image">
-                <img class="about-image-image" src="assets/images/lady.png" alt="Picture of lady working">
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Testimonials -->
-    <section id="testimonials">
-        <!-- Second carousel for the page. This one uses a combination of text and images. All carousels
+        <!-- Testimonials -->
+        <section id="testimonials">
+            <!-- Second carousel for the page. This one uses a combination of text and images. All carousels
         are made using the flickity framework on this site. -->
-        <div class="testimonial-gallery js-flickity">
-            <div class="gallery-cell">
-                <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png" alt="Quotation"></p>
-                <br>
-                <p>Luíza helped me overcome many fears and setbacks with simple techniques to control
-                    anxiety
-                    and better understand my reactions. Thanks to therapy with her, I was able to better
-                    control
-                    my anxiety attacks.</p>
-                <h3 class="testiHeader">Jessica</h3>
+            <div class="testimonial-gallery js-flickity">
+                <div class="gallery-cell">
+                    <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png"
+                            alt="Quotation"></p>
+                    <br>
+                    <p>Luíza helped me overcome many fears and setbacks with simple techniques to control
+                        anxiety
+                        and better understand my reactions. Thanks to therapy with her, I was able to better
+                        control
+                        my anxiety attacks.</p>
+                    <h3 class="testiHeader">Jessica</h3>
+                </div>
+                <div class="gallery-cell">
+                    <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png"
+                            alt="Quotation"></p>
+                    <br>
+                    <p>Aurora is amazing! They approach therapy in a way that really takes into account our
+                        individual needs. It helped me in one of my most difficult times and I will definitely
+                        use
+                        their advice for the rest of my life.</p>
+                    <h3 class="testiHeader">April</h3>
+                </div>
+                <div class="gallery-cell">
+                    <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png"
+                            alt="Quotation"></p>
+                    <br>
+                    <p>Aurora is great! They helped me to overcome so many issues that were effecting me mentally.
+                        I now feel better equipped to deal with the physical aspects of my life with a healthier
+                        mental state.
+                    </p>
+                    <h3 class="testiHeader">Mary</h3>
+                </div>
             </div>
-            <div class="gallery-cell">
-                <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png" alt="Quotation"></p>
-                <br>
-                <p>Aurora is amazing! They approach therapy in a way that really takes into account our
-                    individual needs. It helped me in one of my most difficult times and I will definitely
-                    use
-                    their advice for the rest of my life.</p>
-                <h3 class="testiHeader">April</h3>
-            </div>
-            <div class="gallery-cell">
-                <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png" alt="Quotation"></p>
-                <br>
-                <p>Aurora is great! They helped me to overcome so many issues that were effecting me mentally.
-                    I now feel better equipped to deal with the physical aspects of my life with a healthier
-                    mental state.
-                </p>
-                <h3 class="testiHeader">Mary</h3>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Form that all the buttons lead to! On submit, opens a new window
+        <!-- Contact Form that all the buttons lead to! On submit, opens a new window
     where you can email to "the company" used a personal/business email for the example
     as the company doesn't actually exist -->
-    <section id="contact">
-        <!-- w3 validator throws no heading warning, this section doesn't require a heading -->
-        <div class="contact-section-container">
-            <div class="contact-image">
-                <img class="contact-image-image" src="assets/images/image.png" alt="Image of company building">
-            </div>
-            <div class="contact-form">
-                <!-- Currently just opens a new tab which autocompletes an email and fills in the recipient as "allowudesign@gmail.com"
+        <section id="contact">
+            <!-- w3 validator throws no heading warning, this section doesn't require a heading -->
+            <div class="contact-section-container">
+                <div class="contact-image">
+                    <img class="contact-image-image" src="assets/images/image.png" alt="Image of company building">
+                </div>
+                <div class="contact-form">
+                    <!-- Currently just opens a new tab which autocompletes an email and fills in the recipient as "allowudesign@gmail.com"
                 perhaps later, implement w3 forms API to make it just send the email directly to the address -->
-                <form class="form" action="mailto:allowudesign@gmail.com" method="post" enctype="text/plain" name="EmailForm"
-                    autocomplete="off" target="_blank">
-                    <div class="contact-form-top">
-                        <p>If you have any questions, you can also contact us using the form below and we will be happy
-                            to answer</p>
+                    <form class="form" action="mailto:allowudesign@gmail.com" method="post" enctype="text/plain"
+                        name="EmailForm" autocomplete="off" target="_blank">
+                        <div class="contact-form-top">
+                            <p>If you have any questions, you can also contact us using the form below and we will be
+                                happy
+                                to answer</p>
+                        </div>
+                        <p class="contact-input">Name:<input id="name" name="Name" placeholder="Write your name here.."
+                                required></p>
+                        <p class="contact-input">Email:<input name="Email"
+                                placeholder="Let us know how to contact you back.." required></p>
+                        <p class="contact-input">Message:<input name="Message"
+                                placeholder="What would you like to tell us.." required></p>
+                        <div class="contact-button">
+                            <button type="submit" value="Send" class="btn-contact">Contact Us</button>
+                        </div>
+                    </form>
+                    <div class="contact-bottom-text">
+                        <p>The Colmore Building, 20 Colmore Circus Queensway<br>Birmingham B4 6AT, Reino Unido</p>
                     </div>
-                    <p class="contact-input">Name:<input id="name" name="Name" placeholder="Write your name here.." required></p>
-                    <p class="contact-input">Email:<input name="Email" placeholder="Let us know how to contact you back.."
-                            required></p>
-                    <p class="contact-input">Message:<input name="Message" placeholder="What would you like to tell us.."
-                            required></p>
-                    <div class="contact-button">
-                        <button type="submit" value="Send" class="btn-contact">Contact Us</button>
-                    </div>
-                </form>
-                <div class="contact-bottom-text">
-                    <p>The Colmore Building, 20 Colmore Circus Queensway<br>Birmingham B4 6AT, Reino Unido</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer section -->
     <footer>
@@ -239,12 +249,15 @@
         </div>
         <!-- Social links, currently using own business links and a random twitter link to show they work0 -->
         <div class="socials-container">
-            <div class="footer-social"><a href="https://www.facebook.com/profile.php?id=100092191795588" target="_blank"><img src="assets/images/fb.png" alt="facebook logo"></a></div>
-            <div class="footer-social"><a href="https://www.instagram.com/allowudesign/" target="_blank"><img src="assets/images/insta.png" alt="instagram logo"></a></div>
-            <div class="footer-social"><a href="https://twitter.com/loremipsumt" target="_blank"><img src="assets/images/twt.png" alt="twitter logo"></a></div>
+            <div class="footer-social"><a href="https://www.facebook.com/profile.php?id=100092191795588"
+                    target="_blank"><img src="assets/images/fb.png" alt="facebook logo"></a></div>
+            <div class="footer-social"><a href="https://www.instagram.com/allowudesign/" target="_blank"><img
+                        src="assets/images/insta.png" alt="instagram logo"></a></div>
+            <div class="footer-social"><a href="https://twitter.com/loremipsumt" target="_blank"><img
+                        src="assets/images/twt.png" alt="twitter logo"></a></div>
         </div>
         <!-- Simple text with a link to creator's work -->
-        <div class="signature-container">   
+        <div class="signature-container">
             <p>Designed and Developed by <a href="https://github.com/Zandirin">Richard Kraft</a></p>
         </div>
     </footer>

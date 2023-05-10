@@ -163,7 +163,7 @@ a {
 }
 
 .nav-btn {
-    background-color: #BF6F4D;
+    background-color: #A96142;
     padding: 12px 18px;
     border-radius: 25px;
     color: #fff;
@@ -171,10 +171,10 @@ a {
 
 .nav-btn:hover {
     background-color: #fff;
-    color: #BF6F4D;
+    color: #A96142;
     /* Decreased padding size by 1px here to stop the button pushing the next section down when hovered */
     padding: 11px 17px;
-    border: 1px solid #BF6F4D;
+    border: 1px solid #A96142;
 }
 
 /* Header Section CSS */
@@ -189,7 +189,7 @@ a {
 .header-text {
     width: 58vw;
     padding-top: 10%;
-    color: #BF6F4D;
+    color: #A96142;
 }
 
 .header-lg-text {
@@ -200,8 +200,9 @@ a {
 
 .header-sm-text {
     font-size: 1.5vw;
-    font-weight: 500;
+    font-weight: 600;
     margin: 2% 0%;
+    color: #915136;
 }
 
 .header-image {
@@ -218,19 +219,20 @@ a {
 }
 
 .header-btn {
+    text-align: center;
     display: block;
-    width: 8vw;
+    width: 10vw;
     background-color: transparent;
-    font-size: 1vw;
-    border: 1px solid #BF6F4D;
+    font-size: 1.3vw;
+    border: 1px solid #915136;
     border-radius: 5px;
-    color: #BF6F4D;
+    color: #915136;
     margin-top: 4%;
-    padding: 1% 0% 1% 4%;
+    padding: 1% 4% 1% 4%;
 }
 
 .header-btn:hover {
-    background-color: #BF6F4D;
+    background-color: #915136;
     color: white;
 }
 
@@ -244,7 +246,7 @@ a {
 
 /* text code */
 .how-heading {
-    color: #BF6F4D;
+    color: #A96142;
     font-weight: 700;
     margin-bottom: 2vh;
     font-size: 2vw;
@@ -282,7 +284,7 @@ a {
     background: transparent;
     border-radius: 3px;
     font-weight: 600;
-    color: #BF6F4D;
+    color: #A96142;
     transition: ease .5s;
     position: relative;
 }
@@ -322,20 +324,20 @@ input:checked+label+.content {
 
 .how-btn {
     display: block;
-    border: 1px solid #BF6F4D;
+    border: 1px solid #A96142;
     margin-top: 10%;
     margin-left: 35vw;
     margin: 13% 35vw 4% auto;
     width: 30vw;
     font-size: 1.6vw;
-    background-color: #BF6F4D;
+    background-color: #A96142;
     padding: 1% 4%;
     border-radius: 5px;
     color: #fff;
 }
 
 .how-btn:hover {
-    color: #BF6F4D;
+    color: #A96142;
     background-color: #fff;
 }
 
@@ -365,15 +367,17 @@ input:checked+label+.content {
     bottom: -5px;
     height: 100%;
 }
+
 /* Part Two of About me Section with text and image content */
 /* General Settings */
 #about-us-part-two {
-    background-color: #839383;
+    background-color: #637763;
     font-size: 1.5vw;
-    color: #EBEBEB;
+    color: #fff;
     padding: 3% 4% 3% 0%;
     text-align: center;
 }
+
 /* Text Settings */
 #about-us-part-two p {
     margin-top: 4%;
@@ -399,18 +403,18 @@ input:checked+label+.content {
     display: block;
     margin-top: 6%;
     background-color: transparent;
-    border: 1px solid #EBEBEB;
+    border: 1px solid #fff;
     border-radius: 5px;
     padding: 1% 4%;
     font-size: 1.2vw;
     width: 13vw;
-    color: #EBEBEB;
+    color: #fff;
     text-align: center;
 }
 
 .about-btn:hover {
     background-color: #fff;
-    color: #839383;
+    color: #637763;
 }
 
 .about-image {
@@ -462,7 +466,8 @@ input:checked+label+.content {
 /* Contact Section CSS */
 #contact {
     background-color: #f5f5f5;
-    height: auto; /* No idea why, but this line fixed some scaling issues */
+    height: auto;
+    /* No idea why, but this line fixed some scaling issues */
 }
 
 .contact-section-container {
@@ -481,6 +486,7 @@ input:checked+label+.content {
     height: 100%;
     width: auto;
 }
+
 /* Actual contact form */
 .contact-form {
     width: 50vw;
@@ -521,11 +527,11 @@ input:checked+label+.content {
 #contact button {
     margin-top: 5%;
     font-family: 'Montserrat', sans-serif;
-    border: 0.1vw solid #78788c;
+    border: 0.1vw solid #5a5a5a;
     padding: 1% 0%;
     border-radius: 5px;
-    background: #78788c;
-    color: #fafafa;
+    background: #5a5a5a;
+    color: #fff;
     cursor: pointer;
     transition: all .3s;
     margin-left: 13vw;
@@ -536,7 +542,7 @@ input:checked+label+.content {
 
 #contact button:hover {
     background: none;
-    color: #78788c
+    color: #5a5a5a
 }
 
 #contact .actual-contact-form {
@@ -568,9 +574,11 @@ footer {
     padding: 2% 20% 2%;
     text-align: center;
 }
+
 footer a {
     color: #5a5a5a;
 }
+
 /* Navigation links */
 .links-container {
     display: none;
@@ -597,11 +605,12 @@ footer a {
 
 /* Media queries */
 /* Tablet and below */
-@media (max-width: 800px) {
+@media (max-width: 950px) {
 
     /* Navbar */
     .navbar-container {
         position: relative;
+        width: auto;
     }
 
     .menu-button-container {
@@ -640,8 +649,8 @@ footer a {
         margin: 0;
         padding: 0.5em 0;
         width: 100%;
-        color: #8A9A8A;
-        background-color: #fafafa;
+        color: #637763;
+        background-color: #fff;
     }
 
     .menu>li:not(:last-child) {
@@ -651,11 +660,42 @@ footer a {
     .nav-btn {
         display: none;
     }
-    
+
     .flickity-page-dots {
         bottom: 1.5vh;
     }
 
+    /* about us section */
+    #about-us-part-two {
+        padding-left: 4%;
+    }
+
+    #about-us-part-two h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-container {
+        padding-left: 0;
+    }
+
+    .about-text {
+        text-align: justify;
+        width: auto;
+        font-size: 1rem;
+        padding-bottom: 4%;
+    }
+
+    .about-image {
+        display: none;
+    }
+    
+    .about-btn {
+        margin: 6% auto 0% auto;
+        font-size: 1rem;
+        width: 20vw;
+    }
+
+    /* contact us section */
     .contact-section-container {
         justify-content: center;
     }
@@ -663,7 +703,7 @@ footer a {
     .contact-image {
         display: none;
     }
-    
+
     .contact-form {
         width: 80vw;
     }
@@ -681,5 +721,6 @@ footer a {
     .links-container {
         display: flex;
         justify-content: space-evenly;
+        font-size: 0.8rem;
     }
 }
