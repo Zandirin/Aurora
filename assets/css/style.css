@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* Standard HTML elements */
@@ -63,12 +64,12 @@ a {
     height: 1vw;
     opacity: 1;
     background: transparent;
-    border: 0.1rem solid #839383;
+    border: 0.1rem solid #637763;
 }
 
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
-    background: #839383;
+    background: #637763;
 }
 
 /* Navbar CSS elements */
@@ -81,7 +82,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #fafafa;
+    background-color: #fff;
     padding: 1em 4% 1em 1em;
 }
 
@@ -103,7 +104,7 @@ a {
 }
 
 .menu a {
-    color: #8A9A8A;
+    color: #637763;
 }
 
 .menu>li {
@@ -129,7 +130,7 @@ a {
 .menu-button::before,
 .menu-button::after {
     display: block;
-    background-color: #8A9A8A;
+    background-color: #637763;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -153,7 +154,7 @@ a {
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button {
-    background: #fafafa;
+    background: #fff;
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button::after {
@@ -165,11 +166,11 @@ a {
     background-color: #BF6F4D;
     padding: 12px 18px;
     border-radius: 25px;
-    color: #fafafa;
+    color: #fff;
 }
 
 .nav-btn:hover {
-    background-color: #fafafa;
+    background-color: #fff;
     color: #BF6F4D;
     /* Decreased padding size by 1px here to stop the button pushing the next section down when hovered */
     padding: 11px 17px;
@@ -178,7 +179,7 @@ a {
 
 /* Header Section CSS */
 .header-container {
-    background-color: #fafafa;
+    background-color: #EBEBEB;
     display: flex;
     padding: 4% 7% 0% 16%;
     height: 20%;
@@ -238,7 +239,7 @@ a {
     text-align: center;
     padding: 4% 0% 2%;
     height: auto;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 /* text code */
@@ -250,7 +251,7 @@ a {
 }
 
 .how-paragraph {
-    color: #8A9A8A;
+    color: #637763;
     font-size: 1.5vw;
     margin-bottom: 8%;
 }
@@ -261,11 +262,14 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-evenly;
-    padding-bottom: 3%;
 }
 
 .accordion-container input {
     display: none;
+}
+
+.accordion-item {
+    padding-left: auto;
 }
 
 .accordion-container label {
@@ -309,6 +313,7 @@ a {
 
 input+label+.content {
     display: none;
+    position: absolute;
 }
 
 input:checked+label+.content {
@@ -317,28 +322,28 @@ input:checked+label+.content {
 
 .how-btn {
     display: block;
+    border: 1px solid #BF6F4D;
     margin-top: 10%;
     margin-left: 35vw;
-    margin: 10% 35vw 4% auto;
+    margin: 13% 35vw 4% auto;
     width: 30vw;
     font-size: 1.6vw;
     background-color: #BF6F4D;
     padding: 1% 4%;
     border-radius: 5px;
-    color: #fafafa;
+    color: #fff;
 }
 
 .how-btn:hover {
     color: #BF6F4D;
-    background-color: #fafafa;
-    border: 1px solid #BF6F4D;
+    background-color: #fff;
 }
 
 /* About Us section CSS */
 /* General Settings */
 #about-us {
     height: auto;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 /* Force the image to fit the entire screen */
@@ -357,7 +362,7 @@ input:checked+label+.content {
     position: relative;
     align-items: center;
     vertical-align: bottom;
-    bottom: 0;
+    bottom: -5px;
     height: 100%;
 }
 /* Part Two of About me Section with text and image content */
@@ -365,7 +370,7 @@ input:checked+label+.content {
 #about-us-part-two {
     background-color: #839383;
     font-size: 1.5vw;
-    color: #fafafa;
+    color: #EBEBEB;
     padding: 3% 4% 3% 0%;
     text-align: center;
 }
@@ -392,15 +397,15 @@ input:checked+label+.content {
 
 .about-btn {
     display: block;
-    /* margin-left: 4%; */
     margin-top: 6%;
     background-color: transparent;
-    border: 1px solid #fafafa;
+    border: 1px solid #EBEBEB;
     border-radius: 5px;
     padding: 1% 4%;
     font-size: 1.2vw;
     width: 13vw;
-    color: #fafafa;
+    color: #EBEBEB;
+    text-align: center;
 }
 
 .about-btn:hover {
@@ -505,13 +510,12 @@ input:checked+label+.content {
     border-bottom: 0.2vw solid #78788c;
 }
 
-#contact p:before {
-    content: attr(type);
+.contact-input {
     display: block;
     margin-top: 7%;
     font-size: 1.3vw;
     font-weight: 600;
-    color: #5a5a5a
+    color: #5a5a5a;
 }
 
 #contact button {
@@ -561,7 +565,7 @@ footer {
     background-color: #e9e5dc;
     font-size: 1.2vw;
     font-weight: 500;
-    padding: 6% 20% 2%;
+    padding: 2% 20% 2%;
     text-align: center;
 }
 footer a {
@@ -569,8 +573,7 @@ footer a {
 }
 /* Navigation links */
 .links-container {
-    display: flex;
-    justify-content: space-evenly;
+    display: none;
 }
 
 .socials-container {
@@ -668,5 +671,15 @@ footer a {
     #contact button {
         display: block;
         margin-left: 30vw;
+    }
+
+    /* Footer links enabled */
+    footer {
+        padding-top: 6%;
+    }
+
+    .links-container {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
