@@ -818,5 +818,110 @@ footer a {
 
 /* Mobile only changes */
 @media (max-width: 702px) {
+    /* Header section */
+    .header-text {
+        text-align: center;
+        padding-top: 0%;
+        width: 100%;
+    }
 
+    .header-lg-text {
+        font-size: 1.1rem;
+    }
+
+    .header-sm-text {
+        font-size: 0.7rem;
+    }
+    
+    .header-btn {
+        width: 33vw;
+        font-size: 0.9rem;
+        margin: 4% auto 20px;
+    }
+
+    .header-image {
+        display: none;
+    }
+
+    /* How we can help section */
+    .how-heading,
+    #about-us-part-two h3 {
+        font-size: 1.1rem;
+    }
+
+    .how-paragraph,
+    .about-text {
+        font-size: 0.8rem;
+    }
+
+    .accordion-container {
+        grid-template-columns: 1fr;
+    }
+
+    .accordion-container label,
+    .content {
+        font-size: 0.8rem;
+        width: 80vw;
+        max-width: 80vw;
+    }
+
+    .how-btn {
+        width: 60vw;
+        font-size: 0.8rem;
+    }
+
+    /* Hide carousel? */
+    #about-us {
+        display: none;
+    }
+
+    /* about us section */
+    .about-btn {
+        font-size: 0.8rem;
+        width: 50vw;
+    }
+
+    /* Testimonials section */
+    #testimonials {
+        font-size: 0.9rem;
+    }
+
+    .gallery-cell {
+        padding: 3% 10% 10%;
+    }
+
+    .testiHeader {
+        font-size: 0.8rem;
+    }
+
+    /* contact form section */
+    .contact-bottom-text {
+        font-size: 0.5rem;
+    }
+    
+    #contact button {
+        width: 34vw;
+        font-size: 0.8rem;
+    }
+
+    /* footer */
+    footer {
+        padding-top: 0;
+    }
+
+    .links-container {
+        display: none;
+    }
+
+    .footer-social {
+        padding: 6% 30%;
+    }
+
+    .footer-social img {
+        height: 25px;
+    }
+
+    .signature-container {
+        font-size: 0.5rem;
+    }
 }
