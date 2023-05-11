@@ -121,8 +121,6 @@ Font is linked in the credits section.
 
 ## **Future-Enhancements**
 
-A webpage is a living beast it's going to evolve past the initial stages of release generally, it's always good to discuss where you this the page may go in the future
-
 - Using the technologies required for this project, I was unable to set up any back end for the contact form. In the future it would be nice to have the contact form build a formatted database to read information from for the company
 - I'd also like to add an "accounts" feature to the site where users can sign in/sign up and store information regarding themselves.
 - Add an appointment booking system in the accounts section
