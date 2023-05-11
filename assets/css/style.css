@@ -213,8 +213,7 @@ a {
 
 .header-image {
     width: 42vw;
-    padding-top: 4%;
-    padding-left: 4%;
+    padding: 4% 0 0 4%;
 }
 
 .header-image-image {
@@ -224,8 +223,11 @@ a {
     object-fit: scale-down;
 }
 
-.header-btn {
+.center-text {
     text-align: center;
+}
+
+.header-btn {
     display: block;
     width: 10vw;
     background-color: transparent;
@@ -244,7 +246,6 @@ a {
 
 /* How we can help section CSS */
 #how-can-we-help {
-    text-align: center;
     padding: 4% 0% 2%;
     height: auto;
     background-color: #fff;
@@ -277,8 +278,7 @@ a {
 }
 
 .accordion-item {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
 }
 
 .accordion-container label {
@@ -332,9 +332,7 @@ input:checked+label+.content {
 .how-btn {
     display: block;
     border: 1px solid #A96142;
-    margin-top: 10%;
-    margin-left: 35vw;
-    margin: 13% 35vw 4% auto;
+    margin: 10% 35vw 4% auto;
     width: 30vw;
     font-size: 1.6vw;
     background-color: #A96142;
@@ -382,7 +380,6 @@ input:checked+label+.content {
     font-size: 1.5vw;
     color: #fff;
     padding: 3% 4% 3% 0%;
-    text-align: center;
 }
 
 /* Text Settings */
@@ -416,7 +413,6 @@ input:checked+label+.content {
     font-size: 1.2vw;
     width: 13vw;
     color: #fff;
-    text-align: center;
 }
 
 .about-btn:hover {
@@ -448,13 +444,7 @@ input:checked+label+.content {
 /* Text settings */
 /* Big font used for name */
 .testiHeader {
-    text-align: center;
     font-size: 1.7vw;
-}
-
-/* Smaller font */
-.image-paragraph {
-    text-align: center;
 }
 
 /* "Image" is the quotation mark */
@@ -532,7 +522,7 @@ input:checked+label+.content {
 }
 
 #contact button {
-    margin-top: 5%;
+    margin: 5% 0 0 13vw;
     font-family: 'Montserrat', sans-serif;
     border: 0.1vw solid #5a5a5a;
     padding: 1% 0%;
@@ -541,7 +531,6 @@ input:checked+label+.content {
     color: #fff;
     cursor: pointer;
     transition: all .3s;
-    margin-left: 13vw;
     text-align: center;
     font-size: 1vw;
     width: 12vw;
@@ -563,7 +552,6 @@ input:checked+label+.content {
 
 /* Text Settings */
 .contact-bottom-text {
-    text-align: center;
     font-size: 1.3vw;
     margin-top: 20%;
 }
@@ -579,7 +567,6 @@ footer {
     font-size: 1.2vw;
     font-weight: 500;
     padding: 2% 20% 2%;
-    text-align: center;
 }
 
 footer a {
@@ -682,8 +669,22 @@ footer a {
         font-size: 1.6rem;
     }
 
-    .header-sm-text {
+    .header-sm-text,
+    .how-paragraph,
+    .accordion-container label,
+    .accordion-container label::after,
+    .content,
+    .how-btn,
+    .about-text,
+    .about-btn,
+    #testimonials,
+    .testiHeader,
+    #contact input,
+    #contact button {
         font-size: 1rem;
+    }
+
+    .header-sm-text {
         font-weight: 500;
     }
 
@@ -697,22 +698,13 @@ footer a {
         font-size: 1.5rem;
     }
 
-    .how-paragraph {
-        font-size: 1rem;
-    }
-
     .accordion-container {
         grid-template-columns: 1fr 1fr;
     }
 
     .accordion-container label {
-        font-size: 1rem;
         margin: 0 auto 1px;
         width: 30vw;
-    }
-    
-    .accordion-container label::after {
-        font-size: 1rem;
     }
 
     input+label+.content {
@@ -723,14 +715,12 @@ footer a {
         padding: 0;
         max-width: 30vw;
         margin: 0 auto 1px;
-        font-size: 1rem;
         text-align: justify;
     }
 
     .how-btn {
         margin: 10% auto 4% auto;
         width: 35vw;
-        font-size: 1rem;
     }
 
     /* about us section */
@@ -749,27 +739,21 @@ footer a {
     .about-text {
         text-align: justify;
         width: auto;
-        font-size: 1rem;
         padding-bottom: 4%;
     }
 
-    .about-image {
+    .about-image,
+    .contact-image {
         display: none;
     }
     
     .about-btn {
         margin: 6% auto 0% auto;
-        font-size: 1rem;
         width: 20vw;
     }
 
     /* Testimonials Section */
-    #testimonials {
-        font-size: 1rem;
-    }
-
     .testiHeader {
-        font-size: 1rem;
         margin-top: 4%;
     }
 
@@ -778,36 +762,28 @@ footer a {
         justify-content: center;
     }
 
-    .contact-image {
-        display: none;
-    }
-
     .contact-form {
         width: 80vw;
     }
 
-    .contact-form-top {
-        font-size: 0.8rem;
-    }
-    
-    .contact-input {
+    .contact-form-top,
+    .contact-input,
+    .contact-bottom-text,
+    .links-container {
         font-size: 0.8rem;
     }
 
     #contact input {
-        font-size: 1rem;
         padding-top: 2%;
     }
 
     #contact button {
         display: block;
         margin: 5% auto 0;
-        font-size: 1rem;
         width: 15vw;
     }
 
     .contact-bottom-text {
-        font-size: 0.8rem;
         margin-top: 15%;
     }
 
@@ -819,7 +795,6 @@ footer a {
     .links-container {
         display: flex;
         justify-content: space-evenly;
-        font-size: 0.8rem;
     }
 }
 
@@ -846,7 +821,9 @@ footer a {
         margin: 4% auto 20px;
     }
 
-    .header-image {
+    .header-image,
+    #about-us,
+    .links-container {
         display: none;
     }
 
@@ -857,7 +834,13 @@ footer a {
     }
 
     .how-paragraph,
-    .about-text {
+    .about-text,
+    .accordion-container label,
+    .content,
+    .how-btn,
+    .about-btn,
+    .testiHeader,
+    #contact button {
         font-size: 0.8rem;
     }
 
@@ -867,24 +850,16 @@ footer a {
 
     .accordion-container label,
     .content {
-        font-size: 0.8rem;
         width: 80vw;
         max-width: 80vw;
     }
 
     .how-btn {
         width: 60vw;
-        font-size: 0.8rem;
-    }
-
-    /* Hide carousel? */
-    #about-us {
-        display: none;
     }
 
     /* about us section */
     .about-btn {
-        font-size: 0.8rem;
         width: 50vw;
     }
 
@@ -897,27 +872,19 @@ footer a {
         padding: 3% 10% 10%;
     }
 
-    .testiHeader {
-        font-size: 0.8rem;
-    }
-
     /* contact form section */
-    .contact-bottom-text {
+    .contact-bottom-text,
+    .signature-container {
         font-size: 0.5rem;
     }
     
     #contact button {
         width: 34vw;
-        font-size: 0.8rem;
     }
 
     /* footer */
     footer {
         padding-top: 0;
-    }
-
-    .links-container {
-        display: none;
     }
 
     .footer-social {
@@ -926,9 +893,5 @@ footer a {
 
     .footer-social img {
         height: 25px;
-    }
-
-    .signature-container {
-        font-size: 0.5rem;
     }
 }
