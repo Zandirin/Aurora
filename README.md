@@ -6,11 +6,11 @@ Aurora is a mental health organization who focus on mental care for female clien
 
 ![Am I responsive screenshot](assets/images/aurora-responsive.png)
 
-## Table of contents:
+## Table of contents
 
 - [**Aurora**](#aurora)
   - [**Site Overview**](#site-overview)
-  - [Table of contents:](#table-of-contents)
+  - [Table of contents](#table-of-contents)
   - [**Planning stage**](#planning-stage)
     - [**Target Audiences:**](#target-audiences)
     - [**User Stories:**](#user-stories)
@@ -133,7 +133,7 @@ A webpage is a living beast it's going to evolve past the initial stages of rele
 ## **Testing Phase**
 
 Used friends and family with different devices to test the responsiveness of the site. Also tested the site on multiple different browsers and my own mobile device.
-The site was run through a few validators to make sure it complies with accessibility guidelines. Most of the errors that get listed are from external libraries and not from the code I put in myself.​
+The site was run through a few validators to make sure it complies with accessibility guidelines. Most of the errors that get listed are from external libraries and not from the code I put in myself.
 Screenshots from validators to come.
 More information to come.
 
@@ -175,8 +175,8 @@ I'd like to give thanks to all the friends and family who helped with testing th
 
 ### **Content:**
 
-[Montserrat font:](https://fonts.google.com/specimen/Montserrat?query=Montserrat)
-[Flickity Framework:](https://flickity.metafizzy.co/)
+- [Montserrat font](https://fonts.google.com/specimen/Montserrat?query=Montserrat)
+- [Flickity Framework](https://flickity.metafizzy.co/)
   
 ### **Media:**
 
