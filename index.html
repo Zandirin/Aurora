@@ -24,14 +24,11 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar-container">
-        <!-- Brand Logo -->
         <img class="nav-logo" src="assets/images/nav-logo.png" alt="Aurora Company Logo">
-        <!-- Collapse for mobile -->
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
             <div class='menu-button'></div>
         </label>
-        <!-- Main Nav Links -->
         <ul class="menu">
             <li><a href="#header">HOME</a></li>
             <li><a href="#how-can-we-help">SERVICES</a></li>
@@ -39,21 +36,15 @@
             <li><a href="#testimonials">TESTIMONIALS</a></li>
             <li><a href="#contact">CONTACT US</a></li>
         </ul>
-        <!-- Contact Button leads to contact form later in site -->
-        <!-- Does not display on tablets and mobile devices as a design choice -->
         <a class="nav-btn" href="#contact">Talk To Us</a>
     </nav>
 
     <!-- Header -->
     <header id="header">
-        <!-- Dividing this container in to two pieces to display text and image side by side -->
         <div class="header-container">
             <div class="header-text">
-                <!-- Main Heading -->
                 <h1 class="header-lg-text">Conquer Your Emotional<br>Autonomy And Well-Being</h1>
-                <!-- Sub Heading -->
                 <h2 class="header-sm-text">Out Of Your Vulnerability Will Come Your<br>Strength</h2>
-                <!-- Another CTA button directing user to contact form -->
                 <a href="#contact" class="header-btn">Talk to Us</a>
             </div>
             <div class="header-image">
@@ -64,9 +55,7 @@
     <main>
         <!-- How we can help section -->
         <section id="how-can-we-help">
-            <!-- Heading -->
             <h3 class="how-heading">How we can help you</h3>
-            <!-- Sub Heading -->
             <p class="how-paragraph">We are here for you to conquer your emotional<br>autonomy and well-being</p>
             <!-- Fun with CSS, made an "accordion" to show/hide some information here -->
             <!-- Code taken from https://supfort.com/font-awesome-accordion-arrow-css and modified for site needs -->
@@ -114,18 +103,14 @@
                     </div>
                 </div>
             </div>
-            <!-- Add Another CTA button leading to contact form -->
             <a href="#contact" class="how-btn">Book your appointment</a>
         </section>
 
         <!-- About Us carousel section -->
-        <!-- w3 validator throws a warning for lack of heading tag, section does not require heading -->
         <section id="about-us">
             <h6 class="hidden">About Us Carousel</h6>
             <!-- Carousel section -->
             <!-- Using a lightweight css/js framework named "flickity" for the two carousels on the page -->
-            <!-- Took a lazier approach by converting my design segments to images for this carousel, however,
-        I think it gives a more appealing look -->
             <div class="about-us-gallery js-flickity">
                 <div class="about-gallery-cell">
                     <img class="about-img" src="assets/images/luiza.png" alt="Luíza">
@@ -141,7 +126,6 @@
 
         <!-- About us text section -->
         <section id="about-us-part-two">
-            <!-- Description text explaining company goal -->
             <h3 class="about-heading">Psychological assistance<br>wherever you are!</h3>
             <div class="about-container">
                 <div class="about-text">
@@ -155,7 +139,6 @@
                         developing a therapeutic plan so that you can continue to stay on track towards your goals.</p>
                     <a href="#contact" class="about-btn">Contact Us</a>
                 </div>
-                <!-- Deciding whether or not to hide this on smaller screen devices due to space constraints -->
                 <div class="about-image">
                     <img class="about-image-image" src="assets/images/lady.png" alt="Picture of lady working">
                 </div>
@@ -164,8 +147,6 @@
 
         <!-- Testimonials -->
         <section id="testimonials">
-            <!-- Second carousel for the page. This one uses a combination of text and images. All carousels
-        are made using the flickity framework on this site. -->
             <div class="testimonial-gallery js-flickity">
                 <div class="gallery-cell">
                     <p class="image-paragraph"><img class="testimonial-image" src="assets/images/quote.png"
@@ -206,14 +187,11 @@
     as the company doesn't actually exist -->
         <section id="contact">
             <h6 class="hidden">Contact Us Section</h6>
-            <!-- w3 validator throws no heading warning, this section doesn't require a heading -->
             <div class="contact-section-container">
                 <div class="contact-image">
                     <img class="contact-image-image" src="assets/images/image.png" alt="Image of company building">
                 </div>
                 <div class="contact-form">
-                    <!-- Currently just opens a new tab which autocompletes an email and fills in the recipient as "allowudesign@gmail.com"
-                perhaps later, implement w3 forms API to make it just send the email directly to the address -->
                     <form class="form" action="mailto:allowudesign@gmail.com" method="post" enctype="text/plain"
                         name="EmailForm" autocomplete="off" target="_blank">
                         <div class="contact-form-top">
@@ -241,7 +219,6 @@
 
     <!-- Footer section -->
     <footer>
-        <!-- Navigation links to easily move around the page from the bottom -->
         <div class="links-container">
             <div class="footer-link"><a href="#header">Home</a></div>
             <div class="footer-link"><a href="#how-can-we-help">Services</a></div>
@@ -249,7 +226,6 @@
             <div class="footer-link"><a href="#testimonials">Testimonials</a></div>
             <div class="footer-link"><a href="#contact">Contact</a></div>
         </div>
-        <!-- Social links, currently using own business links and a random twitter link to show they work0 -->
         <div class="socials-container">
             <div class="footer-social"><a href="https://www.facebook.com/profile.php?id=100092191795588"
                     target="_blank"><img src="assets/images/fb.png" alt="facebook logo"></a></div>
@@ -258,7 +234,6 @@
             <div class="footer-social"><a href="https://twitter.com/loremipsumt" target="_blank"><img
                         src="assets/images/twt.png" alt="twitter logo"></a></div>
         </div>
-        <!-- Simple text with a link to creator's work -->
         <div class="signature-container">
             <p>Designed and Developed by <a href="https://github.com/Zandirin">Richard Kraft</a></p>
         </div>
