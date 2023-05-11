@@ -130,10 +130,16 @@ Font is linked in the credits section.
 
 ## **Testing Phase**
 
-Used friends and family with different devices to test the responsiveness of the site. Also tested the site on multiple different browsers and my own mobile device.
-The site was run through a few validators to make sure it complies with accessibility guidelines. Most of the errors that get listed are from external libraries and not from the code I put in myself.
-Screenshots from validators to come.
-More information to come.
+- Used friends and family with different devices to test the responsiveness of the site. Also tested the site on multiple different browsers and my own mobile device.
+- The site was run through a few validators to make sure it complies with accessibility guidelines.
+- Accessibilty web helper shows up with 0 errors.  
+  ![Accessibility Web Helper Screenshot](assets/images/accessibility-web-helper.png)
+- Lighthouse chrome extension gives high scores for perfromance & SEO and a perfect score for accessibility.  
+  ![Lightouse Extension Screenshot](assets/images/lighthouse.png)
+- w3 CSS validator finds no errors in the CSS.  
+  ![w3 CSS Validator Screenshot](assets/images/w3-css-check.png)
+- w3 HTML validator shows only one error and that is a div that creates the hamburger button on smaller screens.  
+  ![w3 HTML Validator Screenshot](assets/images/w3-html-check.png)
 
 ## **Bugs**
 
