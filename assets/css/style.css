@@ -387,7 +387,7 @@ input:checked+label+.content {
     margin-top: 4%;
 }
 
-#about-us-part-two h3 {
+#about-us-part-two h2 {
     font-size: 2vw;
     font-weight: 700;
     padding: 3% 0% 7%;
@@ -728,7 +728,7 @@ footer a {
         padding-left: 4%;
     }
 
-    #about-us-part-two h3 {
+    #about-us-part-two h2 {
         font-size: 1.5rem;
     }
 
@@ -829,7 +829,7 @@ footer a {
 
     /* How we can help section */
     .how-heading,
-    #about-us-part-two h3 {
+    #about-us-part-two h2 {
         font-size: 1.1rem;
     }
 
