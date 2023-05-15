@@ -45,15 +45,8 @@ a {
     color: transparent;
 }
 
-.flickity-prev-next-button:hover {
-    display: none;
-}
-
-.flickity-prev-next-button:hover .arrow {
-    display: none;
-}
-
-/* hide disabled button */
+.flickity-prev-next-button:hover,
+.flickity-prev-next-button:hover .arrow,
 .flickity-prev-next-button:disabled {
     display: none;
 }

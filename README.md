@@ -4,7 +4,7 @@
 
 Aurora is a mental health organization who focus on mental care for female clientele. The company is run by Luiza who has many years experience in her field and spotted a gap in the market for organizations who focus solely on female clients. The organization has a varied approach to the assessment and treatment of all forms of mental health issues and mental conditions. Care is tailored to the specific client and they do not use a one cure fixes all ailments approach.
 
-![Am I responsive screenshot](assets/images/aurora-responsive.png)
+![Am I responsive screenshot](assets/images/README-images/aurora-responsive.png)
 
 ## Table of contents
 
@@ -28,6 +28,9 @@ Aurora is a mental health organization who focus on mental care for female clien
     - [*footer:*](#footer)
   - [**Future-Enhancements**](#future-enhancements)
   - [**Testing Phase**](#testing-phase)
+    - [**Accessibility**](#accessibility)
+    - [**Functionality**](#functionality)
+    - [**HTML \& CSS Validators**](#html--css-validators)
   - [**Bugs**](#bugs)
   - [**Deployment**](#deployment)
   - [**Tech**](#tech)
@@ -62,11 +65,16 @@ Aurora is a mental health organization who focus on mental care for female clien
 
 ### **Wireframes:**
 
-Wireframes to come.
+Desktop Wireframe:  
+![Desktop Wireframe](assets/images/README-images/desktop-wireframe.png)  
+Tablet Wireframe:  
+![Tablet Wireframe](assets/images/README-images/tablet-wireframe.png)  
+Mobile Wireframe:  
+![Mobile Wireframe](assets/images/README-images/mobile-wireframe.png)
 
 ### **Color Scheme:**
 
-For the page we decided on a orange (#A96142) and green theme (#637763) ecause they are calming colors and also match the company's branding in a complimentary way. Also the colors are slightly darker than the company branding to comply with WCAG contrast rules
+For the page we decided on a orange (#A96142) and green theme (#637763) because they are calming colors and also match the company's branding in a complimentary way. Also the colors are slightly darker than the company branding to comply with WCAG contrast rules and make the elements of the page stand out better
 
 ## **Typography**
 
@@ -81,18 +89,28 @@ Font is linked in the credits section.
 - The user is given links to each section of the page
 - Each option is presented in a way that is always obvious and readable
 - on smaller screens a hamburger menu is provided to ensure mobile users have an optimal experience
+![Navbar Desktop](assets/images/README-images/navbar-desktop.png)  
+![Navbar Tablet](assets/images/README-images/navbar-tablet-closed.png)  
+![Navbar Tablet Expanded](assets/images/README-images/navbar-tablet-expand.png)  
+![Navbar Mobile](assets/images/README-images/navbar-mobile-closed.png)  
+![Navbar Mobile expanded](assets/images/README-images/navbar-mobile-expand.png)  
 
 ### *Hero Section:*
 
 - Displays an eye catching header that informs the user what the page contains
 - On larger screens, displays an alternate logo to the navigation bar
 - Contains a call to action button that leads to the contact form
+![Hero Section Desktop](assets/images/README-images/hero-desktop.png)  
+![Hero Section Tablet and lower](assets/images/README-images/hero-tablet-below.png)  
 
 ### *How we can help:*
 
 - A short section containing information about what the company offers
 - 4 dropdown "accordions" that contain information on different ailments the company has dealt with
 - Large call to action button leading to contact form
+![How We Can Help Section Desktop](assets/images/README-images/howwecanhelp-desktop.png)  
+![How We Can Help Section Tablet](assets/images/README-images/howwecanhelp-tablet.png)  
+![How We Can Help Section Mobile](assets/images/README-images/howwecanhelp-mobile.png)  
 
 ### *About Us:*
 
@@ -100,24 +118,37 @@ Font is linked in the credits section.
 - A large information section below the carousel with further information regarding mental illness
 - A call to action button leading, yet again, to the contact form
 - Carousel in this section does not display on mobile screens as it doesn't look quite right
+![About Us Carousel Desktop](assets/images/README-images/about-desktop-part-one.png)  
+![About Us Section Desktop](assets/images/README-images/about-desktop-part-two.png)  
+![About Us Section Tablet](assets/images/README-images/about-tablet.png)  
+![About Us Section Mobile](assets/images/README-images/about-mobile.png)
 
 ### *Testimonials:*
 
 - A carousel containing comments left by past clients
 - Displays message and name in separate styles
 - Currently contains 3 comments
+![Testimonials Desktop](assets/images/README-images/testimonial-desktop.png)  
+![Testimonials Tablet](assets/images/README-images/testimonial-tablet.png)  
+![Testimonials Mobile](assets/images/README-images/testimonial-mobile.png)  
 
 ### *contact us:*
 
 - A contact section displaying an image and a contact form
 - Contact form allows users to send an email to the company (Currently opens an email template that will email myself directly)
 - On smaller screens the contact area is just the contact form as this looks better
+![Contact Us Desktop](assets/images/README-images/contact-desktop.png)  
+![Contact Us Tablet](assets/images/README-images/contact-tablet.png)
+![Contact Us Mobile](assets/images/README-images/contact-mobile.png)  
 
 ### *footer:*
 
 - A small footer containing links to social media
 - Contains a credit signature linking to developer's website (my github)
 - On medium sized screens, also contains navigation links
+![Footer Desktop](assets/images/README-images/footer-desktop.png)  
+![Foooter Tablet](assets/images/README-images/footer-tablet.png)  
+![Footer Mobile](assets/images/README-images/footer-mobile.png)  
 
 ## **Future-Enhancements**
 
@@ -130,16 +161,41 @@ Font is linked in the credits section.
 
 ## **Testing Phase**
 
-- Used friends and family with different devices to test the responsiveness of the site. Also tested the site on multiple different browsers and my own mobile device.
+### **Accessibility**
+
+Website was tested on the following browsers to ensure accessibility on most devices:
+
+- Chrome
+- Edge
+- Firefox
+- Samsung Galaxy A51
+- Generic tablet device
+- Large 32" Monitor
+- Smaller 17" Monitor
+
+### **Functionality**
+
+Navigation links in navbar were tested to see if links lead to the correct section of the website on click. Test was run on multiple devices, result was almost identical each time. Navbar correctly points user to location of website that is named in the link.
+
+Carousels correctly show each page of information when you click the dots or swipe left/right and stop going left at page one and stop going right at page 3 due to these being the first and last pages on the carousel. This was also tested on multiple devices with identical results each time.
+
+Contact form correctly validates all information has been entered and it is the correct type of information that is entered, tested this by trying to put something other than an email address in the email input, form will not submit until it is correctly given an email address.
+
+Contact form opens up user's default email client with a prefilled email and target to send the email to. Tested again on multiple browsers to ensure the experience is successful and the same on all devices.
+
+All external links tested, again on multiple browsers to ensure that once clicked they open the clicked link in a new tab so the user doesn't lose the page they came from and can quickly and easily navigate their way back to the original site.
+
+### **HTML & CSS Validators**
+
 - The site was run through a few validators to make sure it complies with accessibility guidelines.
 - Accessibilty web helper shows up with 0 errors.  
-  ![Accessibility Web Helper Screenshot](assets/images/accessibility-web-helper.png)
+  ![Accessibility Web Helper Screenshot](assets/images/README-images/accessibility-web-helper.png)
 - Lighthouse chrome extension gives high scores for perfromance & SEO and a perfect score for accessibility.  
-  ![Lightouse Extension Screenshot](assets/images/lighthouse.png)
+  ![Lightouse Extension Screenshot](assets/images/README-images/lighthouse.png)
 - w3 CSS validator finds no errors in the CSS.  
-  ![w3 CSS Validator Screenshot](assets/images/w3-css-check.png)
+  ![w3 CSS Validator Screenshot](assets/images/README-images/w3-css-check.png)
 - w3 HTML validator shows only one error and that is a div that creates the hamburger button on smaller screens.  
-  ![w3 HTML Validator Screenshot](assets/images/w3-html-check.png)
+  ![w3 HTML Validator Screenshot](assets/images/README-images/w3-html-check.png)
 
 ## **Bugs**
 
@@ -166,10 +222,10 @@ Technologies used in this project:
 
 - HTML Programming language
 - CSS Programming language
-- Flickity JS and CSS libraries for carousels
-- CodeAnywhere IDE for writing code
-- Git for version control
-- Github for page deployment
+- [Flickity JS and CSS libraries for carousels](https://flickity.metafizzy.co/)
+- [CodeAnywhere IDE for writing code](https://codeanywhere.com/)
+- [Git for version control](https://git-scm.com/)
+- [Github for page deployment](https://github.com/)
 
 ## **Credits**
 
@@ -184,4 +240,9 @@ I'd like to give thanks to all the friends and family who helped with testing th
   
 ### **Media:**
 
-All images were either designed by myself (logos) or found on google images from random searches like "Business woman"
+Logos were designed by myself  
+[Luiza](https://www.freepik.com/free-photo/business-woman-working-home_4465707.htm#query=black%20business%20woman&position=34&from_view=keyword&track=ais)  
+[Theresa](https://www.freepik.com/free-photo/woman-with-curly-hair-smiling_10446171.htm#query=black%20business%20woman&position=2&from_view=keyword&track=ais)  
+[Brenda](https://www.freepik.com/free-photo/smiling-woman-writing-notes-tablet-digital-device_16262752.htm#query=black%20business%20woman&position=12&from_view=keyword&track=ais)  
+[Lady at Desk](https://www.freepik.com/free-photo/side-view-woman-working-computer_27636466.htm?query=black%20business%20woman#from_view=detail_alsolike)  
+[Colmore Row Building](https://ashbycapital.com/portfolio/the-colmore-building)  
