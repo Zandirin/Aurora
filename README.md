@@ -89,6 +89,7 @@ Font is linked in the credits section.
 - The user is given links to each section of the page
 - Each option is presented in a way that is always obvious and readable
 - on smaller screens a hamburger menu is provided to ensure mobile users have an optimal experience
+- The navbar meets the user's need to navigate and access content easily
 ![Navbar Desktop](assets/images/README-images/navbar-desktop.png)  
 ![Navbar Tablet](assets/images/README-images/navbar-tablet-closed.png)  
 ![Navbar Tablet Expanded](assets/images/README-images/navbar-tablet-expand.png)  
@@ -108,6 +109,7 @@ Font is linked in the credits section.
 - A short section containing information about what the company offers
 - 4 dropdown "accordions" that contain information on different ailments the company has dealt with
 - Large call to action button leading to contact form
+- This section helps the user to learn more about what the company has to offer
 ![How We Can Help Section Desktop](assets/images/README-images/howwecanhelp-desktop.png)  
 ![How We Can Help Section Tablet](assets/images/README-images/howwecanhelp-tablet.png)  
 ![How We Can Help Section Mobile](assets/images/README-images/howwecanhelp-mobile.png)  
@@ -118,6 +120,7 @@ Font is linked in the credits section.
 - A large information section below the carousel with further information regarding mental illness
 - A call to action button leading, yet again, to the contact form
 - Carousel in this section does not display on mobile screens as it doesn't look quite right
+- This section helps the user to learn more about what the company has to offer
 ![About Us Carousel Desktop](assets/images/README-images/about-desktop-part-one.png)  
 ![About Us Section Desktop](assets/images/README-images/about-desktop-part-two.png)  
 ![About Us Section Tablet](assets/images/README-images/about-tablet.png)  
@@ -137,6 +140,7 @@ Font is linked in the credits section.
 - A contact section displaying an image and a contact form
 - Contact form allows users to send an email to the company (Currently opens an email template that will email myself directly)
 - On smaller screens the contact area is just the contact form as this looks better
+- This section helps the user to reach out and contact the company
 ![Contact Us Desktop](assets/images/README-images/contact-desktop.png)  
 ![Contact Us Tablet](assets/images/README-images/contact-tablet.png)
 ![Contact Us Mobile](assets/images/README-images/contact-mobile.png)  
@@ -146,6 +150,7 @@ Font is linked in the credits section.
 - A small footer containing links to social media
 - Contains a credit signature linking to developer's website (my github)
 - On medium sized screens, also contains navigation links
+- This section helps the user to navigate easily and reach more ways to contact the company
 ![Footer Desktop](assets/images/README-images/footer-desktop.png)  
 ![Foooter Tablet](assets/images/README-images/footer-tablet.png)  
 ![Footer Mobile](assets/images/README-images/footer-mobile.png)  
@@ -163,7 +168,7 @@ Font is linked in the credits section.
 
 ### **Accessibility**
 
-Website was tested on the following browsers to ensure accessibility on most devices:
+Website was tested on the following browsers to ensure accessibility on most devices, tested all possible ways the site could be used and made sure it displayed correctly and was usable on all of the devices:
 
 - Chrome
 - Edge
@@ -202,6 +207,10 @@ All external links tested, again on multiple browsers to ensure that once clicke
 - Issue - The carousel in the about us section sometimes drops down and behind the next part of the section
 - Cause - Unknown. This is not in my code but in the code provided by Flickity.
 - Resolution - Resizing the screen or refreshing the page seems to correct the error. There is no known fix I can perform without the use of more advanced technologies such as javascript, which is out of the scope of this project, sadly.
+
+- Issue - The site had side scroll behaviour that was not intended
+- Cause - Navbar was wider than the rest of the page due to hamburger menu div
+- Resolution - Forced the navbar to fit in the viewport using a fixed width on the navbar's css selector
 
 ***
 
