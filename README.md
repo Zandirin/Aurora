@@ -170,20 +170,20 @@ Font is linked in the credits section.
 
 Website was tested on the following browsers to ensure accessibility on most devices, tested all possible ways the site could be used and made sure it displayed correctly and was usable on all of the devices:
 
-- Chrome
-![Testing Chrome](assets/images/README-images/32inch.png)
-- Edge
-![Testing Edge](assets/images/README-images/edge.png)
-- Firefox
-![Testing Firefox](assets/images/README-images/firefox.png)
-- Samsung Galaxy A51
-![Testing Phone](assets/images/README-images/mobile.png)
-- Generic tablet device
-![Testing Tablet](assets/images/README-images/tablet.png)
-- Large 32" Monitor
-![Testing Large Screen](assets/images/README-images/32inch.png)
-- Smaller 17" Monitor
-![Testing Small Screen](assets/images/README-images/17inch.png)
+- Chrome  
+![Testing Chrome](assets/images/README-images/32inch.png)  
+- Edge  
+![Testing Edge](assets/images/README-images/edge.png)  
+- Firefox  
+![Testing Firefox](assets/images/README-images/firefox.png)  
+- Samsung Galaxy A51  
+![Testing Phone](assets/images/README-images/mobile.png)  
+- Generic tablet device  
+![Testing Tablet](assets/images/README-images/tablet.png)  
+- Large 32" Monitor  
+![Testing Large Screen](assets/images/README-images/32inch.png)  
+- Smaller 17" Monitor  
+![Testing Small Screen](assets/images/README-images/17inch.png)  
 
 ### **Functionality**
 
