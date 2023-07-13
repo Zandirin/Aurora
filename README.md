@@ -152,7 +152,7 @@ Font is linked in the credits section.
 - On medium sized screens, also contains navigation links
 - This section helps the user to navigate easily and reach more ways to contact the company
 ![Footer Desktop](assets/images/README-images/footer-desktop.png)  
-![Foooter Tablet](assets/images/README-images/footer-tablet.png)  
+![Footer Tablet](assets/images/README-images/footer-tablet.png)  
 ![Footer Mobile](assets/images/README-images/footer-mobile.png)  
 
 ## **Future-Enhancements**
@@ -171,12 +171,19 @@ Font is linked in the credits section.
 Website was tested on the following browsers to ensure accessibility on most devices, tested all possible ways the site could be used and made sure it displayed correctly and was usable on all of the devices:
 
 - Chrome
+![Testing Chrome](assets/images/README-images/32inch.png)
 - Edge
+![Testing Edge](assets/images/README-images/edge.png)
 - Firefox
+![Testing Firefox](assets/images/README-images/firefox.png)
 - Samsung Galaxy A51
+![Testing Phone](assets/images/README-images/mobile.png)
 - Generic tablet device
+![Testing Tablet](assets/images/README-images/tablet.png)
 - Large 32" Monitor
+![Testing Large Screen](assets/images/README-images/32inch.png)
 - Smaller 17" Monitor
+![Testing Small Screen](assets/images/README-images/17inch.png)
 
 ### **Functionality**
 
@@ -193,10 +200,10 @@ All external links tested, again on multiple browsers to ensure that once clicke
 ### **HTML & CSS Validators**
 
 - The site was run through a few validators to make sure it complies with accessibility guidelines.
-- Accessibilty web helper shows up with 0 errors.  
+- Accessibility web helper shows up with 0 errors.  
   ![Accessibility Web Helper Screenshot](assets/images/README-images/accessibility-web-helper.png)
-- Lighthouse chrome extension gives high scores for perfromance & SEO and a perfect score for accessibility.  
-  ![Lightouse Extension Screenshot](assets/images/README-images/lighthouse.png)
+- Lighthouse chrome extension gives high scores for performance & SEO and a perfect score for accessibility.  
+  ![Lighthouse Extension Screenshot](assets/images/README-images/lighthouse.png)
 - w3 CSS validator finds no errors in the CSS.  
   ![w3 CSS Validator Screenshot](assets/images/README-images/w3-css-check.png)
 - w3 HTML validator shows only one error and that is a div that creates the hamburger button on smaller screens.  
