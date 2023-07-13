@@ -461,7 +461,7 @@ input:checked+label+.content {
 }
 
 .contact-section-container {
-    display: flex;
+    display:flex;
 }
 
 .contact-image {
@@ -546,7 +546,8 @@ input:checked+label+.content {
 /* Text Settings */
 .contact-bottom-text {
     font-size: 1.3vw;
-    margin-top: 20%;
+    margin-top: 35%;
+    bottom: 0;
 }
 
 #contact ::placeholder {

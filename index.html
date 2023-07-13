@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Description" content="Aurora, a leader in the treatment of mental health conditions for women" />
+    <meta name="Description" content="Aurora, a leader in the treatment of mental health conditions for women">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Import Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,7 @@
         <img class="nav-logo" src="assets/images/nav-logo.png" alt="Aurora">
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
-            <div class='menu-button'></div>
+            <div class='menu-button'></div> //This div is for the hamburger menu on mobile. Shows as error in W3C.
         </label>
         <ul class="menu">
             <li><a href="#header">HOME</a></li>
@@ -202,20 +202,18 @@
                                 happy
                                 to answer</p>
                         </div>
-                        <label for="name" class="contact-input">Name:<input type="text" id="name" name="Name" placeholder="Write your name here.."
-                                required></p>
-                        <label for="email" class="contact-input">Email:<input type="email" id="email" name="Email"
-                                placeholder="Let us know how to contact you back.." required></p>
-                        <label for="message" class="contact-input">Message:<input type="text" id="message" name="Message"
-                                placeholder="What would you like to tell us.." required></p>
-                        <div class="contact-button">
-                            <button type="submit" value="Send" class="btn-contact">Contact Us</button>
-                        </div>
+                        <label for="name" class="contact-input">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Write your name here.." required>
+                        <label for="email" class="contact-input">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Let us know how to contact you back.." required>
+                        <label for="message" class="contact-input">Message:</label>
+                        <input type="text" id="message" name="message" placeholder="What would you like to tell us.." required>
+                        <button type="submit" value="send" class="btn-contact">Contact Us</button>
                     </form>
                     <div class="contact-bottom-text center-text">
                         <p>The Colmore Building, 20 Colmore Circus Queensway<br>Birmingham B4 6AT, United Kingdom</p>
                     </div>
-                </div>
+                </div>    
             </div>
         </section>
     </main>
