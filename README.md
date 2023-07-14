@@ -89,7 +89,7 @@ Font is linked in the credits section.
 - The user is given links to each section of the page
 - Each option is presented in a way that is always obvious and readable
 - on smaller screens a hamburger menu is provided to ensure mobile users have an optimal experience
-- The navbar meets the user's need to navigate and access content easily
+- The navbar meets the user's need to navigate and access content easily. The links quickly scroll the user to the relevant section to make getting around the site simpler and the navbar also "follows" the user to continue that ease of navigation throughout their visit.
 ![Navbar Desktop](assets/images/README-images/navbar-desktop.png)  
 ![Navbar Tablet](assets/images/README-images/navbar-tablet-closed.png)  
 ![Navbar Tablet Expanded](assets/images/README-images/navbar-tablet-expand.png)  
@@ -100,7 +100,8 @@ Font is linked in the credits section.
 
 - Displays an eye catching header that informs the user what the page contains
 - On larger screens, displays an alternate logo to the navigation bar
-- Contains a call to action button that leads to the contact form
+- Contains a call to action button that leads to the contact form  
+- A short impactful way to grab the user's attention and help them to understand quickly what this company does. The call to action quickly navigates to the contact section if the user is in the correct place, however the user can continue to scroll to learn more and make a more informed decision on whether this company offers services to their needs.
 ![Hero Section Desktop](assets/images/README-images/hero-desktop.png)  
 ![Hero Section Tablet and lower](assets/images/README-images/hero-tablet-below.png)  
 
@@ -109,7 +110,7 @@ Font is linked in the credits section.
 - A short section containing information about what the company offers
 - 4 dropdown "accordions" that contain information on different ailments the company has dealt with
 - Large call to action button leading to contact form
-- This section helps the user to learn more about what the company has to offer
+- This section helps the user to learn more about what the company has to offer. The accordions give a brief description of some of the mental ailments the company has dealt with to help the user to understand if they could possibly be affected by one of these conditions, thus helping the user to learn more about if this company can offer help for their specific issues.  
 ![How We Can Help Section Desktop](assets/images/README-images/howwecanhelp-desktop.png)  
 ![How We Can Help Section Tablet](assets/images/README-images/howwecanhelp-tablet.png)  
 ![How We Can Help Section Mobile](assets/images/README-images/howwecanhelp-mobile.png)  
@@ -120,7 +121,7 @@ Font is linked in the credits section.
 - A large information section below the carousel with further information regarding mental illness
 - A call to action button leading, yet again, to the contact form
 - Carousel in this section does not display on mobile screens as it doesn't look quite right
-- This section helps the user to learn more about what the company has to offer
+- This section helps the user to learn more about what the company has to offer. It gives a descriptive text explaining who the staff and company are and what services they offer to help guide the user in knowing whether this is the right solution for their needs.  
 ![About Us Carousel Desktop](assets/images/README-images/about-desktop-part-one.png)  
 ![About Us Section Desktop](assets/images/README-images/about-desktop-part-two.png)  
 ![About Us Section Tablet](assets/images/README-images/about-tablet.png)  
@@ -131,6 +132,7 @@ Font is linked in the credits section.
 - A carousel containing comments left by past clients
 - Displays message and name in separate styles
 - Currently contains 3 comments
+- This section helps the user to build trust with the brand by using previous clients' feedback and stories to help guide their decision in whether this company is right for their needs. Testimonials often encourage more sales/business due to adding reputation to a company's name.
 ![Testimonials Desktop](assets/images/README-images/testimonial-desktop.png)  
 ![Testimonials Tablet](assets/images/README-images/testimonial-tablet.png)  
 ![Testimonials Mobile](assets/images/README-images/testimonial-mobile.png)  
@@ -140,7 +142,7 @@ Font is linked in the credits section.
 - A contact section displaying an image and a contact form
 - Contact form allows users to send an email to the company (Currently opens an email template that will email myself directly)
 - On smaller screens the contact area is just the contact form as this looks better
-- This section helps the user to reach out and contact the company
+- This section helps the user to reach out and contact the company, we achieve this by giving them the option to input their name, email address and a short message about what they wish to talk about, the company can then check this email and reach out to the user to continue discussion about their issues.
 ![Contact Us Desktop](assets/images/README-images/contact-desktop.png)  
 ![Contact Us Tablet](assets/images/README-images/contact-tablet.png)
 ![Contact Us Mobile](assets/images/README-images/contact-mobile.png)  
@@ -150,7 +152,7 @@ Font is linked in the credits section.
 - A small footer containing links to social media
 - Contains a credit signature linking to developer's website (my github)
 - On medium sized screens, also contains navigation links
-- This section helps the user to navigate easily and reach more ways to contact the company
+- This section helps the user to navigate easily and reach more ways to contact the company by providing links to social media accounts, which when clicked, open a new browser tab for convenience to the user in that they can easily find their way back to the website after using the social media links. Also provides a link to the designer/creator's github in case the user wishes to see more from the person who designed and created the site.
 ![Footer Desktop](assets/images/README-images/footer-desktop.png)  
 ![Footer Tablet](assets/images/README-images/footer-tablet.png)  
 ![Footer Mobile](assets/images/README-images/footer-mobile.png)  
@@ -163,12 +165,13 @@ Font is linked in the credits section.
 - Add google maps data to show where the company is located so clients can easily get directions
 - Add a live chat for clients to contact the company easily and not have to wait for email communication
 - Add more interactive elements to keep users engaged
+- I'd like to think of a way to incorporate some images into the mobile variant of the site as in its current state it is rather plain looking, however, during testing, all tested images ruined the flow of the site and made it feel less organic.
 
 ## **Testing Phase**
 
 ### **Accessibility**
 
-Website was tested on the following browsers to ensure accessibility on most devices, tested all possible ways the site could be used and made sure it displayed correctly and was usable on all of the devices:
+Website was tested on the following browsers to ensure accessibility on most devices, testing included using the links, submitting template contact requests to test the contact form actually worked, using the navigation bar to move around the site, testing the carousels with swiping and clicking the circles below them to make sure functionality on both worked and made sure it displayed correctly and was usable on all of the devices:
 
 - Chrome  
 ![Testing Chrome](assets/images/README-images/32inch.png)  
@@ -205,8 +208,10 @@ All external links tested, again on multiple browsers to ensure that once clicke
 - Lighthouse chrome extension gives high scores for performance & SEO and a perfect score for accessibility.  
   ![Lighthouse Extension Screenshot](assets/images/README-images/lighthouse.png)
 - w3 CSS validator finds no errors in the CSS.  
+Found out there was an error with missing units in the CSS, I remedied this by reformatting the button that was causing the issue, as the same button had another issue wherein it was resizing as you hovered over it, causing the container it is in to expand and shrink when mousing over it. CSS validator now once again checks no errors at all. Error was fixed by removing the padding sizes from the hover as they were no longer needed, however, if they were needed, to fix the error I was missing "rem" from the end of the second measurement.
   ![w3 CSS Validator Screenshot](assets/images/README-images/w3-css-check.png)
 - w3 HTML validator shows only one error and that is a div that creates the hamburger button on smaller screens.  
+After receiving feedback, errors were found in the html validator, they were due to recent changes to the way I had programmed the contact form, I had previously programmed it wrong and therefore had to make some drastic edits, but I seem to have slipped up in my testing and missed some closing tags from the old system and some HTML formatting where I had the input elements inside the label tags, I have now moved the input elements out of the label tags and removed the closing p tags that were flagging errors. There was also a trailing / in my head's meta section which I have removed from the code and now the HTML validator checks clean except for the div which is required for my hamburger button to function  
   ![w3 HTML Validator Screenshot](assets/images/README-images/w3-html-check.png)
 
 ## **Bugs**
@@ -218,6 +223,10 @@ All external links tested, again on multiple browsers to ensure that once clicke
 - Issue - The site had side scroll behaviour that was not intended
 - Cause - Navbar was wider than the rest of the page due to hamburger menu div
 - Resolution - Forced the navbar to fit in the viewport using a fixed width on the navbar's css selector
+
+- Issue - W3C HTML editor shows error due to a div element that controls my hamburger icon on tablet and mobile
+- Cause - According to W3C div should not be used in the context it is being used in.
+- Resolution - I will have to find an alternative way to program the hamburger menu in the future.
 
 ***
 
